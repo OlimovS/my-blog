@@ -1,0 +1,12 @@
+.Section-Scores {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.scores-box{
+  width: 100%;
+  height: auto;
+  border: 1px solid blue;
+  margin: 10px auto;
+}

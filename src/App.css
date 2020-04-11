@@ -1,0 +1,41 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   -webkit-tap-highlight-color: transparent;
+   -webkit-font-smoothing: antialiased;
+}
+.App {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  * {
+     font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  * {
+     font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  * {
+     font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 346px) {
+  * {
+     font-size: 11px;
+  }
+}
+
+
+@media only screen and (max-width: 301px) {
+  * {
+     font-size: 10px;
+  }
+}

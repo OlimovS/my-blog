@@ -1,0 +1,19 @@
+.single-link {
+   text-decoration: none;
+   height: 100%;
+   width:  100%;
+}
+.icon-style  {
+  height: 20px;
+  color: #888888;
+  padding: 3px 1px 1px 1px;
+}
+
+.icon-style:hover {
+  color: #4834d4;
+}
+
+/*
+@media only screen and  (min-width: ){
+
+} */

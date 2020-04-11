@@ -1,0 +1,45 @@
+
+
+.one-project {
+   width: 254px;
+   height: 254px;
+   margin: 10px;
+   background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   cursor: pointer;
+   opacity: 1;
+   transition: opacity 0.2s;
+   overflow: hidden;
+}
+
+.one-project span {
+  color: #341f97;
+  font-weight: bold;
+}
+
+.one-project:hover {
+opacity: 0.8;
+
+}
+
+.one-project img {
+  display: inline-block;
+   width: 254px;
+   height: 156px;
+   background-size: cover;
+}
+
+
+@media only screen and (max-width: 626px){
+
+  .one-project {
+     width: 225px;
+     height: 225px;
+     margin: 5px;
+  }
+  .one-project img {
+     width: 225px;
+     height: 140px;
+  }
+
+}

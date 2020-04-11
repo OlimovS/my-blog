@@ -1,0 +1,55 @@
+.Section-Auth{
+   margin-top: 70px;
+   width: 100%;
+   height: 100%;
+}
+
+.auth-box {
+  width: 430px;
+  height: auto;
+  margin: 1rem auto;
+  padding: 2.1rem;
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+}
+
+.button {
+  background-color: inherit;
+  font-size: 110%;
+  font-weight: bold;
+  outline: 0;
+  padding: 2px 3px;
+  border: 0;
+  transition: color 0.3s ease-out;
+}
+
+button:focus {outline:0;}
+
+
+
+.green{
+  color: #44bd32;
+}
+.green:hover {
+  color: #27ae60;
+}
+
+.darkyellow{
+  margin-top: 6px;
+  color: #3c40c6;
+}
+.darkyellow:hover {
+  color: #192a56;
+}
+
+.my-spinner {
+  display: block;
+  height: 40%;
+  padding: 25px;
+}
+
+@media only screen and (max-width: 460px){
+  .auth-box {
+    width: 90%;
+  }
+}

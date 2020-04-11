@@ -1,0 +1,15 @@
+.section-projects {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.hero-text p {
+  float: left;
+}
+
+.flex-projects {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

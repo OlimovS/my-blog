@@ -1,0 +1,32 @@
+.score {
+  width: 60%;
+  height: auto;
+  padding: 4px;
+  margin: 4px auto;
+  border-radius: 3px;
+  transition: opacity 0.3s ease-out;
+  cursor: pointer;
+}
+
+.score p {
+  margin-bottom: 0px;
+}
+
+.score:hover {
+  opacity: 0.8;
+}
+.red-color {
+  background-color: #EA2027;
+}
+
+.yellow-color {
+  background-color: #FFC312;
+}
+
+.green-color {
+  background-color: #009432;
+}
+
+.blue-color {
+  background-color: #0652DD;
+}

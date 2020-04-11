@@ -1,0 +1,28 @@
+.Bottom {
+   box-sizing: border-box;
+   padding-top: 15px;
+   width: 100%;
+   height: 150px;
+   background-color: #2d3436;
+}
+
+.my-links {
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.my-icons {
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.my-copyright{
+  color: rgba(255,255,255,.5);
+}
+
+@media only screen and (max-width: 600px){
+  .Bottom {
+     padding-top: 10px;
+     height: 128px;
+   }
+}

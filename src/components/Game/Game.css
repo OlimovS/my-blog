@@ -1,0 +1,58 @@
+.Game {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 10px auto;
+  font: inherit;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.my-game-container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+
+
+
+.game-score {
+  margin-top: 1%;
+  font-weight: 600;
+  font-size: 140%;
+}
+
+.my-explain {
+  font-weight: 500;
+  font-size: 130%;
+}
+
+
+
+
+.game-info {
+  display: flex;
+  justify-content: center;
+}
+
+.game-tools{
+  display: flex;
+  padding-right: 20px;
+}
+
+.one-tool{
+  display: inline-block;
+  padding: 1px;
+  margin: auto 5px;
+}
+
+.game-result {
+  text-align: left;
+}
+
+.icon-span:hover {
+   cursor: pointer;
+}
+.icon-span-not {
+  cursor: not-allowed;
+}

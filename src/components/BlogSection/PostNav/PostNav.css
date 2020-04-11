@@ -1,0 +1,18 @@
+.post-link-div {
+  border-bottom: 1px solid #c8d6e5;
+  margin-bottom: 4%;
+  padding-left: 5%;
+}
+
+
+.post-link {
+   cursor: pointer;
+   color: #4834d4;
+   margin-bottom: 2%;
+}
+
+.post-link:active,
+.post-link:hover{
+  color: #130f40;
+  text-decoration: underline;
+}

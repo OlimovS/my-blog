@@ -1,0 +1,10 @@
+.Userpost-section{
+  width: 630px;
+  margin: 1% auto 80px;
+}
+
+@media only screen and (max-width: 700px){
+  .Userpost-section{
+    width: 95%;
+  }
+}

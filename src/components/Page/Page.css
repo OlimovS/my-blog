@@ -1,0 +1,65 @@
+.Page-Section{
+ padding: 5% 0;
+ font: inherit;
+}
+
+.Page-Section h6 {
+  font-weight: lighter;
+  font-size: 150%;
+}
+
+.Page-Section h4 {
+  font-size: 200%;
+}
+
+.long-copy{
+  line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 1.7%;
+}
+
+.four-boxes {
+  display: flex;
+  padding: 0 2.2% 0 0.6%;
+  flex-direction: row;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+
+.four-cities {
+  padding: 0 2.2% 0 0.6%;
+
+  margin-top: 2%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+
+@media only screen and (max-width: 680px){
+  .Page-Section{
+   padding: 9% 0;
+  }
+  .four-boxes{
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .four-cities {
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+ .Page-Section h4 {
+   font-size: 170%;
+ }
+
+}
+
+@media only screen and (max-width: 500px){
+
+  .Page-Section h4 {
+    font-size: 150%;
+  }
+}

@@ -1,0 +1,140 @@
+.Profile-Section {
+  margin: 70px auto 0;
+  padding: 1%;
+  width: 100%;
+}
+.main-look{
+  width: 630px;
+  margin: 0 auto 3%;
+  padding: 2%;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.top-nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+.top-nav a {
+  flex-wrap: nowrap;
+  font-weight: bold;
+  box-sizing: border-box;
+  color: green;
+  padding: 0.6rem;
+}
+
+.top-nav a:hover{
+  text-decoration: none;
+  color: #1B1464;
+}
+.top-navlink {
+  border: 2px solid #1B1464;
+  color: #1B1464;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+
+
+
+.my-portfoli-section {
+  margin-top: 2%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.right-nav {
+   padding: 2%;
+   box-shadow: 0 2px 3px #ccc;
+   border: 1px solid #eee;
+   flex: 3;
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+}
+.portfoli-content {
+  padding-top: 5%;
+  padding-bottom: 1%;
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+}
+.profile-icon {
+  margin: 1% auto 1%;
+  height: 50px;
+  width: 50px;
+  color: #30336b;
+}
+.text-div {
+  margin: 1% auto;
+}
+
+.right-main-text{
+  font-size: 120%;
+  padding: 1% auto 1%;
+  font-weight: bold;
+}
+
+
+.right-nav a {
+  font-weight: bold;
+  color: green;
+  padding: 0.6rem;
+  text-decoration: none;
+}
+.right-nav a:hover {
+  text-decoration: none;
+  background-color: #EE5A24;
+  color: white;
+}
+
+.selected {
+  background-color: #EE5A24;
+  border-right: 3px solid #1B1464;
+  color: white;
+  text-decoration: none;
+}
+
+
+.play-section {
+  width: 75%;
+  margin: 1% auto;
+}
+
+
+
+
+
+@media only screen and (max-width: 700px){
+  .main-look{
+    width: 95%;
+  }
+  .top-nav{
+    justify-content: center;
+    height: 40px;
+  }
+  .my-portfoli-section {
+    flex-direction: column-reverse;
+  }
+  .right-nav{
+    width: 210px;
+   margin: 1% auto;
+  }
+
+  .play-section {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 450px){
+   .right-nav{
+     width: 150px;
+   }
+
+   .play-section {
+     width: 100%;
+   }
+}

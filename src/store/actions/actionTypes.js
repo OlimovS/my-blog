@@ -1,0 +1,24 @@
+export const BOX_CLICKED = "BOX_CLICKED";
+export const RESET_STATE = "RESET_STATE";
+export const SAVE_GAME_START = "SAVE_GAME_START";
+export const SAVE_GAME_FAIL = "SAVE_GAME_FAIL";
+export const SAVE_GAME_SUCCESS = "SAVE_GAME_SUCCESS";
+export const SAVE_GAME = "SAVE_GAME";
+
+export const FETCH_SCORES_START = 'FETCH_SCORES_START';
+export const FETCH_SCORES_SUCCESS = 'FETCH_SCORES_SUCCESS';
+export const FETCH_SCORES_FAIL = 'FETCH_SCORES_FAIL';
+
+export const AUTH_START ="AUTH_START";
+export const AUTH_SUCCES ="AUTH_SUCCES";
+export const AUTH_FAIL ="AUTH_FAIL";
+export const AUTH_LOGOUT ="AUTH_LOGOUT";
+
+
+export const POST_SEND_START = "POST_SEND_START";
+export const POST_SEND_SUCCESS = "POST_SEND_SUCCESS";
+export const POST_SEND_FAIL = "POST_SEND_FAIL";
+
+export const FETCH_POST_START = "FETCH_POST_START";
+export const FETCH_POST_SUCCESS = "FETCH_POST_SUCCESS";
+export const FETCH_POST_FAIL = "FETCH_POST_FAIL";
